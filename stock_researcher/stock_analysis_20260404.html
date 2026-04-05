@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis - April 04, 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #1a1a1a;
+            padding: 40px 20px;
+            color: #e0e0e0;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: #2d2d2d;
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #ffffff;
+            border-bottom: 2px solid #555;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+            letter-spacing: -0.3px;
+        }
+        
+        .date {
+            color: #9e9e9e;
+            font-size: 13px;
+            margin-bottom: 32px;
+            font-weight: 400;
+        }
+        
+        .stats {
+            background: #3a3a3a;
+            padding: 14px 18px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            color: #e0e0e0;
+            border-left: 3px solid #757575;
+        }
+        
+        .legend {
+            background: #3a3a3a;
+            padding: 12px 18px;
+            border-radius: 6px;
+            margin-bottom: 32px;
+            font-size: 12px;
+            color: #bdbdbd;
+        }
+        
+        .legend p {
+            margin: 4px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 40px;
+            table-layout: fixed;
+        }
+        
+        /* Column width distribution - Analysis gets most space */
+        th:nth-child(1), td:nth-child(1) { width: 18%; }
+        th:nth-child(2), td:nth-child(2) { width: 22%; }
+        th:nth-child(3), td:nth-child(3) { width: 50%; }
+        th:nth-child(4), td:nth-child(4) { width: 10%; }
+        
+        th {
+            background: #3a3a3a;
+            color: #e0e0e0;
+            padding: 14px 12px;
+            text-align: left;
+            font-weight: 500;
+            border: 1px solid #555;
+        }
+        
+        td {
+            padding: 14px 12px;
+            border: 1px solid #555;
+            vertical-align: top;
+            color: #d0d0d0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            text-align: justify;
+        }
+        
+        tr:hover {
+            background: #383838;
+        }
+        
+        .sentiment-text {
+            line-height: 1.5;
+            color: #cccccc;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            text-align: justify;
+        }
+        
+        .analysis-cell {
+            line-height: 1.5;
+            color: #cccccc;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            text-align: justify;
+        }
+        
+        .chart-link {
+            color: #9e9e9e;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted #757575;
+            display: inline-block;
+            padding: 4px 0;
+            text-align: left;
+        }
+        
+        .chart-link:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+        }
+        
+        .footer {
+            margin-top: 48px;
+            text-align: center;
+            color: #757575;
+            font-size: 11px;
+            border-top: 1px solid #404040;
+            padding-top: 32px;
+        }
+        
+        .footer p {
+            margin: 8px 0;
+        }
+
+        .header-link {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        
+        .portfolio-link {
+            color: #9e9e9e;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            border-bottom: 1px dotted #757575;
+            transition: color 0.2s ease;
+        }
+        
+        .portfolio-link:hover {
+            color: #ffffff;
+            border-bottom-color: #ffffff;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 12px;
+            }
+            .container {
+                padding: 24px;
+            }
+            th, td {
+                padding: 10px 8px;
+                font-size: 12px;
+            }
+            /* Adjust column widths for mobile */
+            th:nth-child(1), td:nth-child(1) { width: 22%; }
+            th:nth-child(2), td:nth-child(2) { width: 28%; }
+            th:nth-child(3), td:nth-child(3) { width: 40%; }
+            th:nth-child(4), td:nth-child(4) { width: 10%; }
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                background: white;
+                box-shadow: none;
+                padding: 0;
+            }
+            th {
+                background: #f0f0f0;
+                color: #333;
+                border: 1px solid #ccc;
+            }
+            td {
+                color: #333;
+                border: 1px solid #ccc;
+                text-align: justify;
+            }
+            .chart-link {
+                color: #333;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-link">
+            <a href="https://maximilianoromero.com" target="_blank" class="portfolio-link">maximilianoromero.com</a>
+        </div>
+        <div class="date">Report date: April 04, 2026</div>
+        <div class="legend">
+            <h3>Generated by Agent Stock Researcher</h3>
+            <p>Market Sentiment: News-driven sentiment from recent articles</p>
+            <p>Analysis: Based on principles of top-notch investors</p>
+        </div>
+        
+        <h1>Stock Candidates</h1>
+        <div class="stats">5 found</div>
+        
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Market Sentiment</th>
+                        <th>Analysis</th>
+                        <th>Chart</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><strong>EquipmentShare....</strong></td>
+                        <td class="sentiment-text">UBS recently initiated coverage on the stock with a Neutral rating and a $36 price target.</td>
+                        <td class="analysis-cell">This stock presents significant challenges for a pragmatic analyst. The valuation metrics are extreme, with a P/E ratio over 2000 and a PEG ratio that cannot be calculated due to negative earnings growth, suggesting the stock is not a bargain by traditional measures. The financial health is a major concern, with a debt-to-equity ratio of nearly 490%, indicating a highly leveraged balance sheet with no 'net cash' safety cushion. The business appears to be a capital hog, consuming $0.64 billion in free cash flow, which is a red flag for owner earnings. Furthermore, the negative 53% earnings growth and minimal 1.1% revenue growth make it impossible to project future earnings with any reasonable confidence, placing it firmly in the 'too hard' pile. The story is difficult to articulate succinctly, as the numbers do not support a compelling investment thesis. The extreme leverage, negative cash flow, and lack of earnings predictability create substantial risk, demanding an exceptionally large margin of safety which the current metrics do not provide.</td>
+                        <td><a href="https://finance.yahoo.com/quote/EQPT/" target="_blank" class="chart-link">EQPT</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>HDFC Bank Limit...</strong></td>
+                        <td class="sentiment-text">Recent trading activity shows significant interest in long-dated put options for HDB, with investors actively seeking price discovery and historical data for both puts and calls expiring in January 2026, indicating a focus on long-term downside protection or speculative positioning.</td>
+                        <td class="analysis-cell">The stock presents a mixed picture. On the positive side, it operates in the financial services sector, which can be a stable and predictable business, and its revenue growth is strong at 26.4%. However, several quantitative checks raise concerns. The PEG ratio of 1.48 suggests the stock is not a bargain relative to its 11.5% earnings growth, indicating potential overvaluation. The extremely low RSI of 24.1 points to severe oversold conditions, which could signal either a major capitulation or underlying fundamental distress. Critical data for a thorough assessment is missing: the debt/equity ratio, free cash flow, and owner earnings are not available, making it impossible to evaluate the balance sheet strength, cash generation quality, or whether the business is a capital hog. Without this data, projecting earnings with reasonable confidence for a long-term valuation is challenging, placing it in a higher uncertainty category. The strong revenue growth is the primary compelling story, but the lack of key financial metrics and the questionable valuation metrics prevent a clear conclusion on its investment merit.</td>
+                        <td><a href="https://finance.yahoo.com/quote/HDB/" target="_blank" class="chart-link">HDB</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Verra Mobility ...</strong></td>
+                        <td class="sentiment-text">Recent news highlights new contracts and tighter financial targets, with one source labeling it a profitable stock for the long term.</td>
+                        <td class="analysis-cell">The company's story appears to be one of a fast grower, supported by strong revenue growth. However, the quantitative checklist raises significant concerns. The PEG ratio cannot be calculated due to missing earnings growth data, preventing a clear valuation check. The balance sheet is a major red flag, with an extremely high debt-to-equity ratio indicating significant leverage and financial risk, far from the ideal of a debt-free company. The high ROE is impressive but may be artificially inflated by the substantial debt. The business model's predictability for a 10-year projection is questionable, placing it in a potentially difficult-to-analyze category. The free cash flow figure is positive but modest relative to the debt burden, and without the owner earnings calculation, it's hard to assess the true cash-generating power versus its capital needs. The low RSI suggests the stock is technically oversold, which could present an opportunity, but the fundamental analysis is dominated by the excessive debt, making it a risky proposition that demands a very large margin of safety for any consideration.</td>
+                        <td><a href="https://finance.yahoo.com/quote/VRRM/" target="_blank" class="chart-link">VRRM</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>Ryan Specialty ...</strong></td>
+                        <td class="sentiment-text">The stock has experienced a significant decline from its recent highs in March 2026, with the current price of $20.62 well below the $36-$37 range seen just weeks prior.</td>
+                        <td class="analysis-cell">This stock presents a highly challenging profile. The valuation is a primary concern, with a P/E ratio of 67.53 that appears extremely high, especially without a clear earnings growth rate to justify it via the PEG ratio. The financial structure is a major red flag, as the debt-to-equity ratio of 281.55% indicates a heavily leveraged balance sheet, far from the ideal of a 'net cash' position. While the revenue growth of 13.6% and ROE of 18.21% are positive fundamental signs, they are overshadowed by the extreme valuation and debt load. The stock's recent sharp price drop suggests negative market sentiment, but the core issue is that the numbers do not support the current price as a bargain. The high debt level introduces significant financial risk, and the inability to confidently project earnings or calculate a meaningful PEG ratio places this firmly in the 'too hard' category for a prudent analyst. The story is difficult to justify in a two-minute drill given the conflicting signals of decent operational metrics versus perilous valuation and balance sheet health.</td>
+                        <td><a href="https://finance.yahoo.com/quote/RYAN/" target="_blank" class="chart-link">RYAN</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>MakeMyTrip Limi...</strong></td>
+                        <td class="sentiment-text">The company is scheduled to report its fiscal third-quarter results in January 2026, with recent option activity showing a significant decline in a call option.</td>
+                        <td class="analysis-cell">This stock presents a challenging profile that falls outside a clear investment framework. The valuation metrics are highly concerning, with a P/E ratio of nearly 70 while earnings are declining sharply at -69.6%. This creates an extremely high PEG ratio, indicating severe overvaluation relative to its negative growth. The business appears to be in a difficult phase where revenue is growing modestly but profitability is collapsing. The low RSI suggests the market has already recognized these issues, but the core financial deterioration makes it impossible to project future earnings with any confidence for a valuation exercise. The company generates some free cash flow, but without data on owner earnings or debt structure, it's unclear if this cash is truly available to shareholders or if the business is a capital-intensive one. The negative earnings trend and inventory risk cannot be assessed from the provided data, but the fundamental disconnect between price and performance is a major red flag. This appears to be a speculative situation where the underlying business story is unclear and the numbers do not support the current valuation, placing it firmly in the 'too hard' category for a prudent analyst.</td>
+                        <td><a href="https://finance.yahoo.com/quote/MMYT/" target="_blank" class="chart-link">MMYT</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+        </div>
+    </div>
+</body>
+</html>
