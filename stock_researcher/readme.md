@@ -1,7 +1,7 @@
 
 
 # Sample
-[stock_analysis_20260404](./stock_analysis_20260404)
+[stock_analysis_20260404](./stock_analysis_20260404.html)
 
 # Frequency
 Weekly generation
