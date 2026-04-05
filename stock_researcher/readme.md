@@ -1,7 +1,21 @@
 
+# Pricing
+April 2026: USD 1 (one) per requested report
+
+# Subscription
+On-demand. 
+Reports are generated during Friday night and delivered to subscribers during Saturday early morning.
+
+**SUBSCRIBE TO NEXT RUN (April 10, 2026)**
+
+- [Subscribe to Oversold](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold)
+- [Subscribe to Overbought](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Overbought)
+- [Subscribe to Both](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold%2BOverbought)
+
+----------------------------------------------------------------------------------------------------------
 
 # Sample
-[stock_analysis_20260404](./stock_analysis_20260404.html)
+[stock_analysis_20260404](https://htmlpreview.github.io/?https://github.com/max-romero/showcase/blob/main/stock-researcher/stock_analysis_20260404.html)
 
 # Frequency
 Weekly generation
@@ -29,7 +43,7 @@ Market Sentiment Agent: Operating alongside the analysis agent, this component s
 # Pricing
 April 2026: USD 1 (one) per requested report
 
-# Suscription
+# Subscription
 On-demand. 
 Reports are generated during Friday night and delivered to subscribers during Saturday early morning.
 
@@ -38,3 +52,5 @@ Reports are generated during Friday night and delivered to subscribers during Sa
 - [Subscribe to Oversold](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold)
 - [Subscribe to Overbought](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Overbought)
 - [Subscribe to Both](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold%2BOverbought)
+
+----------------------------------------------------------------------------------------------------------
