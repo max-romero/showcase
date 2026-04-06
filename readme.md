@@ -1,7 +1,7 @@
-# Enter to the 
+# welcome to my AI ecosystem
 
-| SOLUTION | Status | Access |
+| solution | status | explore |
 |----------|--------|------|
-| Agent Stock Researcher | Available | [enter](./stock_researcher) |
-| Agent Technical Writer | In progress | [enter](./technical_writer) |
-| Agent Web Developer | In progress | [enter](./web_developer) |
+| Agent Stock Researcher | Ready | [->](./stock_researcher) |
+| Agent Technical Writer | In progress | [->](./technical_writer) |
+| Agent Web Developer | In progress | [->](./web_developer) |
