@@ -1,4 +1,4 @@
-# welcome to my AI ecosystem
+# Welcome to my AI ecosystem
 
 | solution | status | explore |
 |----------|--------|------|
