@@ -15,7 +15,7 @@ Reports are generated during Friday night and delivered to subscribers during Sa
 ----------------------------------------------------------------------------------------------------------
 
 # Sample
-[stock_analysis_20260404](https://htmlpreview.github.io/?https://github.com/max-romero/showcase/blob/main/stock-researcher/stock_analysis_20260404.html)
+[stock_analysis_20260404](https://htmlpreview.github.io/?https://github.com/max-romero/showcase/blob/main/stock_researcher/stock_analysis_20260404.html)
 
 # Frequency
 Weekly generation
@@ -39,18 +39,5 @@ The solution employs two specialized AI agents working in sequence to transform 
 Analysis Agent: This primary agent analyzes filtered stock candidates by applying investment principles to quantitative metrics. It evaluates each stock's financial health, valuation, and growth prospects without naming specific investors, focusing instead on the underlying principles of value and growth investing. The agent generates natural language analysis that assesses investment merit while honestly acknowledging risks and concerns.
 
 Market Sentiment Agent: Operating alongside the analysis agent, this component scans recent news and market developments to provide current sentiment context. It summarizes relevant financial news without applying bullish/bearish labels, instead describing what the news indicates about market perception. This agent ensures the analysis incorporates both quantitative metrics and qualitative market context for a more complete investment picture.
-
-# Pricing
-April 2026: USD 1 (one) per requested report
-
-# Subscription
-On-demand. 
-Reports are generated during Friday night and delivered to subscribers during Saturday early morning.
-
-**SUBSCRIBE TO NEXT RUN (April 10, 2026)**
-
-- [Subscribe to Oversold](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold)
-- [Subscribe to Overbought](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Overbought)
-- [Subscribe to Both](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold%2BOverbought)
 
 ----------------------------------------------------------------------------------------------------------
