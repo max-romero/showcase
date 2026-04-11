@@ -9,5 +9,5 @@
 ## Building "Team"
 | solution | status | explore |
 |----------|--------|------|
-| Agent Technical Writer | In progress | [->](./technical_writer) |
+| Agent Technical Writer | Ready | [->](./technical_writer) |
 | Agent Web Developer | In progress | [->](./web_developer) |
