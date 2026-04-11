@@ -1,18 +1,19 @@
 
 # Pricing
 Variable. Tailored implementation.
-An evaluation of the system architecture maturity level should be done(https://maximilianoromero.com/#framework)
+An evaluation of the system architecture maturity level should be done.(https://maximilianoromero.com/#framework).
 The agent should run on top of a self-service system architecture
 
 ---
 
 # Sample
-[stock_analysis_20260404](https://htmlpreview.github.io/?https://github.com/max-romero/showcase/blob/main/web_developer/sys_arch_20260409_235518.md)
+Agent Web Developer sys arch doc
+[sys_arch_20260409_235518](https://github.com/max-romero/showcase/blob/c91a5fe6f8cf60ce57bf6c9d8840aeff553dfc8d/web_developer/sys_arch_20260409_235518.md)
 
 ---
 
 # Solution Overview
-AI-powered documentation generator that analyzes your source code and automatically produces comprehensive system architecture documentation. It reads all your files, extracts key information about modules, functions, inputs, outputs, and dependencies, then generates structured documentation including solution overviews, data flow diagrams, module tables, and sequence diagrams.
+AI-powered documentation generator that analyzes your web_developer/sys_arch_20260409_235518.mdsource code and automatically produces comprehensive system architecture documentation. It reads all your files, extracts key information about modules, functions, inputs, outputs, and dependencies, then generates structured documentation including solution overviews, data flow diagrams, module tables, and sequence diagrams.
 
 ---
 
