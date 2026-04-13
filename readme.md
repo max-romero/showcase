@@ -1,12 +1,14 @@
 # AI ecosystem
 
 
-## Business solutions
+## Products
 | solution | status | explore |
 |----------|--------|------|
 | Agent Stock Researcher | Ready | [->](./stock_researcher) |
 
-## Building "Team"
+## Team
+Agents that are part of building Products above.
+
 | solution | status | explore |
 |----------|--------|------|
 | Agent Technical Writer | Ready | [->](./technical_writer) |
