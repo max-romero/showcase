@@ -13,7 +13,7 @@ Agent Web Developer sys arch doc
 ---
 
 # Solution Overview
-AI-powered documentation generator that analyzes your web_developer/sys_arch_20260409_235518.mdsource code and automatically produces comprehensive system architecture documentation. It reads all your files, extracts key information about modules, functions, inputs, outputs, and dependencies, then generates structured documentation including solution overviews, data flow diagrams, module tables, and sequence diagrams.
+AI-powered documentation generator that analyzes your source code and automatically produces comprehensive system architecture documentation. It reads all your files, extracts key information about modules, functions, inputs, outputs, and dependencies, then generates structured documentation including solution overviews, data flow diagrams, module tables, and sequence diagrams.
 
 ---
 
