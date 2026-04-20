@@ -1,4 +1,4 @@
-#FAQ
+# FAQ
 
 ## 1. Why should I use it if I already have Google Maps?
 Google Maps is excellent for finding *where* things are, but it doesn't tell you *what* it's like to live there.
