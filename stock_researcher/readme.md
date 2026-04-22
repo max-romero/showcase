@@ -20,7 +20,7 @@ Reports are generated during Friday night and delivered to subscribers during Sa
 # frequency
 Weekly generation
 
-# available Reports
+# available reports
 USA (NYSE + NASDAQ). Oversold, Overbought
 
 # solution overview
