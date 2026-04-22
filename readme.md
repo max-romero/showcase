@@ -1,16 +1,16 @@
 # AI ecosystem
 
 
-## Products
+## products
 | solution | status | explore |
 |----------|--------|------|
-| Agent Stock Researcher | Ready | [->](./stock_researcher) |
-| Agent Street Analyzer | Ready | [->](./street_analyzer) |
+| agent stock researcher | ready | [->](./stock_researcher) |
+| Agent street analyzer | ready | [->](./street_analyzer) |
 
-## Team
-Agents that are part of building Products above.
+## team
+agents that are part of building Products above.
 
 | solution | status | explore |
 |----------|--------|------|
-| Agent Technical Writer | Ready | [->](./technical_writer) |
-| Agent Web Developer | In progress | [->](./web_developer) |
+| agent technical writer | ready | [->](./technical_writer) |
+| agent web developer | rn progress | [->](./web_developer) |
