@@ -1,8 +1,8 @@
 
-# Pricing
+# pricing
 April 2026: USD 1 (one) per requested report
 
-# Subscription
+# subscription
 On-demand. 
 Reports are generated during Friday night and delivered to subscribers during Saturday early morning.
 
@@ -14,16 +14,16 @@ Reports are generated during Friday night and delivered to subscribers during Sa
 
 ----------------------------------------------------------------------------------------------------------
 
-# Sample
+# sample
 [stock_analysis_20260404](https://htmlpreview.github.io/?https://github.com/max-romero/showcase/blob/main/stock_researcher/stock_analysis_20260404.html)
 
-# Frequency
+# frequency
 Weekly generation
 
-# Available Reports
+# available Reports
 USA (NYSE + NASDAQ). Oversold, Overbought
 
-# Solution Overview
+# solution overview
 
 This solution provides an automated stock research and analysis platform that identifies investment opportunities through systematic screening and AI-powered evaluation. The system addresses the challenge of efficiently analyzing thousands of stocks by combining quantitative filtering with qualitative AI assessment.
 
@@ -32,7 +32,7 @@ It streamlines the investment research process from data collection to actionabl
 By automating the data pipeline and applying consistent evaluation criteria, it enables systematic investment decision-making. The solution delivers professional-grade research reports in accessible formats, making sophisticated analysis available to investors without requiring extensive financial expertise or time commitment.
 
 
-# AI Application
+# AI application
 
 The solution employs two specialized AI agents working in sequence to transform raw stock data into investment insights:
 
