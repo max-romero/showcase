@@ -5,6 +5,7 @@
 | solution | status | explore |
 |----------|--------|------|
 | Agent Stock Researcher | Ready | [->](./stock_researcher) |
+| Agent Street Analyzer | Ready | [->](./street_analyzer) |
 
 ## Team
 Agents that are part of building Products above.
