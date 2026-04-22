@@ -13,4 +13,4 @@ agents that are part of building Products above.
 | solution | status | explore |
 |----------|--------|------|
 | agent technical writer | ready | [->](./technical_writer) |
-| agent web developer | rn progress | [->](./web_developer) |
+| agent web developer | in progress | [->](./web_developer) |
