@@ -1,10 +1,10 @@
 # Access
 
-https://xxxx.vercel.app/
+https://ba-street.maximilianoromero.com/
 
 # Pricing
 
-April 26'. Free up to 3 request per day.
+April 26'. Free for registered users.
 
 # Solution Overview
 
