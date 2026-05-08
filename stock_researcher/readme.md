@@ -6,7 +6,7 @@ May 2026: USD 1 (one) per requested report
 On-demand. 
 Reports are generated during Friday night and delivered to subscribers during Saturday early morning.
 
-**SUBSCRIBE TO NEXT RUN (May 1, 2026)**
+**SUBSCRIBE TO NEXT RUN (May 9, 2026)**
 
 - [Subscribe to Oversold](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Oversold)
 - [Subscribe to Overbought](mailto:romero_maxi@outlook.com?subject=Stock%20Researcher%20Overbought)
